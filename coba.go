@@ -5,4 +5,9 @@ type(
 		Name 		string
 		Address 	string
 	}
+
+	Districts struct {
+		DistrictID   int64  `db:"district_id"`
+		DistrictName string `db:"district_name"`
+	}
 )
